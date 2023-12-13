@@ -56,8 +56,8 @@ class Rings{
 
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
   pixelDensity(1);
+  createCanvas(displayWidth, displayHeight);
   stroke(255);
   noFill();
   R = [];
